@@ -9,11 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            
-            Text("Expense Tracker")
+        NavigationView {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) {
+                   // MARK: Title
+                    Text("Overview")
+                        .font(.title2)
+                        .bold()
+                }
+                .padding()
+                .frame(maxWidth: .infinity)
+            }
+            .background(Color.backgoundColor)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                // MARK: Notification Icon
+                Image(systemName: "bell.badge")
+                    .symbolRenderingMode(.palette)
+                    .foregroundStyle(Color.iconColor, .primary)
+            }
         }
-        .padding()
+        .navigationViewStyle(.stack)
     }
 }
 

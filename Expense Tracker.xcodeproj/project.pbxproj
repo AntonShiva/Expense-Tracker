@@ -12,6 +12,7 @@
 		2D982FDC2ADD38440093B4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D982FDB2ADD38440093B4DA /* Assets.xcassets */; };
 		2D982FDF2ADD38440093B4DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D982FDE2ADD38440093B4DA /* Preview Assets.xcassets */; };
 		2D982FE62ADD76BF0093B4DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D982FE52ADD76BF0093B4DA /* Extensions.swift */; };
+		2DE8F62D2ADECE1C0026EA83 /* TransacionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8F62C2ADECE1C0026EA83 /* TransacionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		2D982FDB2ADD38440093B4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D982FDE2ADD38440093B4DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D982FE52ADD76BF0093B4DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2DE8F62C2ADECE1C0026EA83 /* TransacionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				2D982FD72ADD38430093B4DA /* Expense_TrackerApp.swift */,
 				2D982FD92ADD38430093B4DA /* ContentView.swift */,
 				2D982FE52ADD76BF0093B4DA /* Extensions.swift */,
+				2DE8F62C2ADECE1C0026EA83 /* TransacionModel.swift */,
 				2D982FDB2ADD38440093B4DA /* Assets.xcassets */,
 				2D982FDD2ADD38440093B4DA /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				2D982FDA2ADD38430093B4DA /* ContentView.swift in Sources */,
 				2D982FE62ADD76BF0093B4DA /* Extensions.swift in Sources */,
 				2D982FD82ADD38430093B4DA /* Expense_TrackerApp.swift in Sources */,
+				2DE8F62D2ADECE1C0026EA83 /* TransacionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
