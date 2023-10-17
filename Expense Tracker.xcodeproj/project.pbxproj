@@ -13,6 +13,7 @@
 		2D982FDF2ADD38440093B4DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D982FDE2ADD38440093B4DA /* Preview Assets.xcassets */; };
 		2D982FE62ADD76BF0093B4DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D982FE52ADD76BF0093B4DA /* Extensions.swift */; };
 		2DE8F62D2ADECE1C0026EA83 /* TransacionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8F62C2ADECE1C0026EA83 /* TransacionModel.swift */; };
+		2DE8F62F2ADED0F70026EA83 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8F62E2ADED0F70026EA83 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2D982FDE2ADD38440093B4DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D982FE52ADD76BF0093B4DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2DE8F62C2ADECE1C0026EA83 /* TransacionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransacionModel.swift; sourceTree = "<group>"; };
+		2DE8F62E2ADED0F70026EA83 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				2D982FDE2ADD38440093B4DA /* Preview Assets.xcassets */,
+				2DE8F62E2ADED0F70026EA83 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE8F62F2ADED0F70026EA83 /* PreviewData.swift in Sources */,
 				2D982FDA2ADD38430093B4DA /* ContentView.swift in Sources */,
 				2D982FE62ADD76BF0093B4DA /* Extensions.swift in Sources */,
 				2D982FD82ADD38430093B4DA /* Expense_TrackerApp.swift in Sources */,
