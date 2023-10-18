@@ -23,3 +23,11 @@ extension DateFormatter {
         return formatter
     }()
 }
+
+extension String {
+    func dateParsed() -> Date {
+        guard let parsedDate = DateFormatter.allNymeric.date(from: self) else { return Date() }
+        
+        return parsedDate
+    }
+}
