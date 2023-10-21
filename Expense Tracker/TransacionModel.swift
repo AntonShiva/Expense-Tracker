@@ -6,13 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
+import SwiftUIFontIcon
 
-struct Transaction: Identifiable, Decodable {
+struct Transaction: Identifiable, Decodable, Hashable {
     let id: Int
     let date: String
     let institution: String
     let account: String
-    let maerchant: String
+    let merchant: String
     let amount: Double
     let type: TransactionType.RawValue
     var categoryId: Int

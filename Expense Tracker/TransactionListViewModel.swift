@@ -21,7 +21,7 @@ final class TransactionListViewModel: ObservableObject {
         guard let url = URL(string: "https://designcode.io/data/transactions.json") else {
             print("Invalid URL")
             return
-}
+        }
         
         URLSession.shared.dataTaskPublisher(for: url)
             .tryMap { (data, response) -> Data in
@@ -29,7 +29,6 @@ final class TransactionListViewModel: ObservableObject {
                     dump(response)
                     throw URLError(.badServerResponse)
                 }
-                
                 return data
             }
             .decode(type: [Transaction].self, decoder: JSONDecoder())
@@ -37,13 +36,14 @@ final class TransactionListViewModel: ObservableObject {
             .sink { completion in
                 switch completion {
                 case .failure(let error):
-                    print("Error fetching transactions:", error.localizedDescription)
+                    print("Error fetching transactions: ", error.localizedDescription)
+                    
                 case .finished:
-                    print("Finished Fetching transactions")
+                    print("Finishded fetching transactions")
                 }
-            } receiveValue: { [weak self] result in
-                self?.transactions = result
-                dump(self?.transactions)
+            } receiveValue: {[weak self] results in
+                self?.transactions = results
+                
             }
             .store(in: &cancellables)
     }

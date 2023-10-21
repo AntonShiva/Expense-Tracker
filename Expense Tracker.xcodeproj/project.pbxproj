@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8BFFEE2AE280F00028DA8E /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8BFFED2AE280F00028DA8E /* RecentTransactionList.swift */; };
 		2D982FD82ADD38430093B4DA /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D982FD72ADD38430093B4DA /* Expense_TrackerApp.swift */; };
 		2D982FDA2ADD38430093B4DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D982FD92ADD38430093B4DA /* ContentView.swift */; };
 		2D982FDC2ADD38440093B4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D982FDB2ADD38440093B4DA /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D8BFFED2AE280F00028DA8E /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		2D982FD42ADD38430093B4DA /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D982FD72ADD38430093B4DA /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
 		2D982FD92ADD38430093B4DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				2D982FD92ADD38430093B4DA /* ContentView.swift */,
 				2DA1D0D32ADEF821000D0FF4 /* TransactionRow.swift */,
 				2D9E875C2AE12F6900D292A2 /* TransactionListViewModel.swift */,
+				2D8BFFED2AE280F00028DA8E /* RecentTransactionList.swift */,
 				2D982FE52ADD76BF0093B4DA /* Extensions.swift */,
 				2DE8F62C2ADECE1C0026EA83 /* TransacionModel.swift */,
 				2D982FDB2ADD38440093B4DA /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE8F62F2ADED0F70026EA83 /* PreviewData.swift in Sources */,
+				2D8BFFEE2AE280F00028DA8E /* RecentTransactionList.swift in Sources */,
 				2D982FDA2ADD38430093B4DA /* ContentView.swift in Sources */,
 				2D982FE62ADD76BF0093B4DA /* Extensions.swift in Sources */,
 				2DA1D0D42ADEF821000D0FF4 /* TransactionRow.swift in Sources */,

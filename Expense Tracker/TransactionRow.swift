@@ -23,7 +23,7 @@ struct TransactionRow: View {
             
             VStack(alignment: .leading, spacing: 6) {
                 // MARK: Trnsaction Merchant
-                Text(transaction.maerchant)
+                Text(transaction.merchant)
                     .font(.footnote)
                     .bold()
                     .lineLimit(1)
