@@ -24,6 +24,13 @@ struct Transaction: Identifiable, Decodable, Hashable {
     var isExpense: Bool
     var isEdited: Bool
     
+    var icon: FontAwesomeCode {
+        if let category = Category.all.first(where: { $0.id == categoryId}) {
+            return category.icon
+        }
+        return .question
+    }
+    
     var dateParsed: Date {
         date.dateParsed()
     }
@@ -31,7 +38,13 @@ struct Transaction: Identifiable, Decodable, Hashable {
     var signedAmount: Double {
         return type == TransactionType.credit.rawValue ? amount : -amount
     }
+   
+    var month: String {
+        dateParsed.formatted(.dateTime.year().month(.wide))
+    }
 }
+
+
 
 enum TransactionType: String {
     case debit = "debit"

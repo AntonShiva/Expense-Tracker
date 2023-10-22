@@ -8,6 +8,8 @@
 import Foundation
 import Combine
 
+typealias TransactionCroup = [String: [Transaction]]
+
 final class TransactionListViewModel: ObservableObject {
     @Published var transactions: [Transaction] = []
     
