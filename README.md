@@ -7,9 +7,6 @@ Video preview - click play !)
 https://github.com/AntonShiva/Expense-Tracker/assets/133210791/b919f5a5-e492-4c4b-8ee5-efc3823e1c49
 
 
-## Todo
-- add custom insert expensed
-- modified for local database
 ## Demo
 | Light Mode | Dark Mode |
 | :---------: | :---------: |
